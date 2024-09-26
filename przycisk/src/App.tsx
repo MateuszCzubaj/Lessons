@@ -1,9 +1,7 @@
-import { useState } from "react";
 import "./App.css";
 
-import Formularz from "./components/Formularz";
-
 import styled from "styled-components";
+import BasicFormForLessons from "./pages/BasicFormForLesson/BasicFormForLesson";
 
 const Container = styled.div`
   background-color: ${(props) => props.theme.colors.primary};
@@ -15,7 +13,7 @@ const Container = styled.div`
 function App() {
   return (
     <>
-      <Formularz />
+      <BasicFormForLessons />
     </>
   );
 }
